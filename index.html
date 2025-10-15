@@ -4,48 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="">Paris</a>
-            <a href="">Tokyo</a>
-            <a href="">New York</a>
+        <nav class="header-nav">
+            <ul class="header-container">
+                <li><a href="">Paris</a></li>
+                <li><a href="">Tokyo</a></li>
+                <li><a href="">New York</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="banner">
             <h1>Explorez le Monde</h1>
-            <h3>Decouvrez les destinations les plus belles du monde</h3>
+            <p>Decouvrez les destinations les plus belles du monde</p>
         </section>
-        <section>
-            <div>
+        <section class="destination">
+            <article class="destination-card">
                 <img src="assets/img/paris.jpg" alt="">
-                <h2>Paris</h2>
-                <hr>
-                <p>La Ville Lumière est réputée pour son art, sa gastronomie et sa culture.</p>
-                <p>Découvrez la tour Eiffel, le louvre et la cuisine française.</p>
-                <a href="">Explorez Paris</a>
-            </div>
-            <div>
+                <div class="destination-content">
+                    <h2 class="destination-title">Paris</h2>
+                    <p>La Ville Lumière est réputée pour son art, sa gastronomie et sa culture.</p>
+                    <p>Découvrez la tour Eiffel, le louvre et la cuisine française.</p>
+                    <div class="btn-container">
+                        <a href="" class="btn paris-btn">Explorez Paris</a>
+                    </div>
+                </div>
+            </article>
+            <article class="destination-card">
                 <img src="assets/img/tokyo.jpg" alt="">
-                <h2>Tokyo</h2>
-                <hr>
-                <p>Explorez l'énergie et la culture fascinante de Tokyo, avec ses temples anciens, sa cuisine délicieuse
-                    et ses quartiers modernes.</p>
-                <a href="">Explorez Tokyo</a>
-            </div>
-            <div>
+                <div class="destination-content">
+                    <h2 class="destination-title">Tokyo</h2>
+                    <p>Explorez l'énergie et la culture fascinante de Tokyo, avec ses temples anciens, sa cuisine
+                        délicieuse et ses quartiers modernes.</p>
+                    <div class="btn-container">
+                        <a href="" class="btn tokyo-btn">Explorez Tokyo</a>
+                    </div>
+                </div>
+            </article>
+            <article class="destination-card">
                 <img src="assets/img/new-york.jpeg" alt="">
-                <h2>New York</h2>
-                <hr>
-                <p>La ville qui ne dort jamais vous offre des gratte-ciel impressionnants, des spectacles à Broadway et
-                    des parcs magnifiques.</p>
-                <a href="">Explorez New York</a>
-            </div>
-
+                <div class="destination-content">
+                    <h2 class="destination-title">New York</h2>
+                    <p>La ville qui ne dort jamais vous offre des gratte-ciel impressionnantes, des spectacles à
+                        Broadway et des parcs magnifiques.</p>
+                    <div class="btn-container">
+                        <a href="" class="btn ny-btn">Explorez New York</a>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
 </body>
